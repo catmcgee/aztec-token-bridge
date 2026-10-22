@@ -23,5 +23,9 @@
   },
   "scripts": {
     "test": "NODE_NO_WARNINGS=1 node --experimental-vm-modules $(yarn bin jest)"
+  },
+  "resolutions": {
+    "ws": "^8.21.0",
+    "@koa/cors": "^5.0.0"
   }
 }
